@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakhme</title>
+    <link rel="stylesheet" href="./lakhme.css">
+    <link rel="icon" type="images/png" href="data:image/png;base64,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">
+</head>
+<body>
+<header>
+    <h3>Its wedding season get 20% off on 3 more products</h3>   
+</header>
+
+
+
+
+<!-------------Row1----------------------------->
+<div class="row">
+<div class="row1">
+        <div><img src="https://i.postimg.cc/3xscw5gW/Screenshot-2023-12-03-135330.png" width="80px" height="80px"></div>
+        <div  class="col">CATOGORIES</div>
+        <div  class="col">TRENDING NOW</div>
+        <div  class="col">COMBOS</div>
+        <div class="col">BlOG</div>
+        <div class="col">HELP</div>
+</div>
+<br>
+<div class="row2">
+    <div><img id="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-61m_8-cJBplnxf11RjVKheKyb07VIm3Tpg&usqp=CAU" width="100px"; height="100px";><p><center>Sale</center></p></div>
+    <div><img id="image1" src="https://i.stack.imgur.com/tiCHu.png" width="100px"; height="100px";><p><center>Face</center></p></div>
+    <div><img id="image1" src="https://static-bebeautiful-in.unileverservices.com/1200/900/tips-naturally-beautiful-eyes-without-makeup_mobilehome.jpg" width="100px"; height="100px";></p><center>Eyes</center></p></div>
+    <div><img id="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu_DHurO8KvVU3z-zfVRPNi3Oh9rPo6jjIwg&usqp=CAU" width="100px"; height="100px"><p><center>Skin</center></p></div>
+    <div><img id="image1" src="data:image/jpeg;base64,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" width="100px"; height="100px"><p><center>Nails</center></p></div>
+     
+</div>
+<div class="banner"></div>
+</div>
+
+
+
+<!-------------Row2----------------------------->
+<div class="newrow">
+    <div class="newrow1">
+<div class="col1"><img  id="img2" src="https://www.lakmeindia.com/cdn/shop/files/24968_H_8901030816055_1000x1000.jpg?v=1698926308">
+
+<h3 id="hh">LAKMÉ 9 TO 5 PRIMER + MATTE LIP COLOR</h3>
+<br>
+<h3 id="hh">₹495   <s>550</s></h3>
+<h4>Save ₹55</h4>
+<p style="display:inline-block;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbEIDyhfcnm_lzo_8DkyNWP7dRKSjEd9213QxSZlY2M_a9wcDQVhhZRUxDMe7gHUaVrDs&usqp=CAU" width="15px" height="15px;">
+    4.9    | <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmBvqYa2Myyj93wd1J-wJiN2qxzfOXaeWHDg&usqp=CAU" width="20px" height="15px;"> 70 Verified Rating 
+  </p>
+  <br>
+<button id="btn" >View Shades</button>
+</div>
+<div class="col1"><img  id="img2" src="https://www.lakmeindia.com/cdn/shop/files/24272_H_8901030707988_1000x1000.jpg?v=1698905885">
+
+<h3 id="hh">LAKMÉ EYECONIC KAJAL TWIN PACK</h3>
+<br>
+<h3 id="hh">₹360   <s>380</s></h3>
+<h4>Save ₹20</h4>
+<p style="display:inline-block;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbEIDyhfcnm_lzo_8DkyNWP7dRKSjEd9213QxSZlY2M_a9wcDQVhhZRUxDMe7gHUaVrDs&usqp=CAU" width="15px" height="15px;">
+    4.9    | <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmBvqYa2Myyj93wd1J-wJiN2qxzfOXaeWHDg&usqp=CAU" width="20px" height="15px;"> 70 Verified Rating 
+  </p>
+  <br>
+<button id="btn" >ADD TO BAG</button>
+
+</div>
+<div class="col1"><img  id="img2" src="https://www.lakmeindia.com/cdn/shop/products/Lakme9to5CCComplexionCareCream_30gmBeige_600x.jpg?v=1598102848">
+   <h3 id="hh">LAKMÉ 9 TO 5 CC COMPLEXION CARE CREAM, 20GM</h3>
+    <br>
+    <h3 id="hh">240   <s>220</s></h3>
+    <h4>Save ₹20</h4>
+    <p style="display:inline-block;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbEIDyhfcnm_lzo_8DkyNWP7dRKSjEd9213QxSZlY2M_a9wcDQVhhZRUxDMe7gHUaVrDs&usqp=CAU" width="15px" height="15px;">
+        4.9    | <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmBvqYa2Myyj93wd1J-wJiN2qxzfOXaeWHDg&usqp=CAU" width="20px" height="15px;"> 70 Verified Rating 
+      </p>
+      <br>
+    <button id="btn" >ADD TO BAG</button>
+    </div>
+</div>
+<br>
+<br>
+<div class="newrow2">
+    <div class="col1"><img  id="img2" src="https://www.lakmeindia.com/cdn/shop/products/FOP_c1d6ec68-27ba-470c-a6e0-116bf961b27e_1000x1000.jpg?v=1680679833">
+    
+    <h3 id="hh">LAKMÉ YOUTH INFINITY SKIN FIRMING DAY CREME</h3>
+    <br>
+    <h3 id="hh">₹636   <s>949</s></h3>
+    <h4>Save ₹55</h4>
+    <p style="display:inline-block;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbEIDyhfcnm_lzo_8DkyNWP7dRKSjEd9213QxSZlY2M_a9wcDQVhhZRUxDMe7gHUaVrDs&usqp=CAU" width="15px" height="15px;">
+        4.9    | <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmBvqYa2Myyj93wd1J-wJiN2qxzfOXaeWHDg&usqp=CAU" width="20px" height="15px;"> 70 Verified Rating 
+      </p>
+      <br>
+    <button id="btn" >ADD TO BAG</button>
+    </div>
+    <div class="col1"><img  id="img2" src="https://www.lakmeindia.com/cdn/shop/files/23657_H_8901030824999_600x.jpg?v=1698915365">
+    
+    <h3 id="hh">LAKMÉ ABSOLUTE BLUR PERFECT PRIMER</h3>
+    <br>
+    <h3 id="hh">₹725   <s>850</s></h3>
+    <h4>Save ₹20</h4>
+    <p style="display:inline-block;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbEIDyhfcnm_lzo_8DkyNWP7dRKSjEd9213QxSZlY2M_a9wcDQVhhZRUxDMe7gHUaVrDs&usqp=CAU" width="15px" height="15px;">
+        4.9    | <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmBvqYa2Myyj93wd1J-wJiN2qxzfOXaeWHDg&usqp=CAU" width="20px" height="15px;"> 70 Verified Rating 
+      </p>
+      <br>
+    <button id="btn" >ADD TO BAG</button>
+    
+    </div>
+    <div class="col1"><img  id="img2" src="https://www.lakmeindia.com/cdn/shop/products/FOP_6ce3dafe-8ae4-4536-b393-f412179fa8cb_600x.jpg?v=1676454573">
+       <h3 id="hh">LAKMÉ 9TO5 VITAMIN C +SERUM, 15 ML</h3>
+        <br>
+        <h3 id="hh">269   <s>299</s></h3>
+        <h4>Save ₹20</h4>
+        <p style="display:inline-block;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbEIDyhfcnm_lzo_8DkyNWP7dRKSjEd9213QxSZlY2M_a9wcDQVhhZRUxDMe7gHUaVrDs&usqp=CAU" width="15px" height="15px;">
+            4.9    | <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmBvqYa2Myyj93wd1J-wJiN2qxzfOXaeWHDg&usqp=CAU" width="20px" height="15px;"> 70 Verified Rating 
+          </p>
+          <br>
+        <button id="btn" >ADD TO BAG</button>
+    </div>
+    </div>
+
+
+    <div class="lastrow">
+
+        <footer>
+            <center><img src="https://i.postimg.cc/3xscw5gW/Screenshot-2023-12-03-135330.png"></center>
+            <h2>ABOUT LAKMÉ</h2>
+            <br>
+            <p id="pp1">
+                The contemporary Indian beauty expert - Lakmé continuously innovates to offer a wide range of high performance and world class cosmetics and skincare products that have earned recognition from the People for the Ethical Treatment of Animals (PETA). We, at Lakme, combine international cosmetic technology with an in-depth understanding of the Indian woman’s needs and offer a comprehensive beauty experience to our customers through products that are ideal for a variety of Indian skin tones. Lakmé was the country's first cosmetic brand to introduce makeup to Indian women and takes pride in being the expert on Indian Beauty for over 50 years. We also take immense pride in being a compassionate beauty brand which is why we do not believe in or support testing on animals. Our bond with beauty and fashion goes beyond skincare & makeup hence it is manifested through the renowned Lakmé Fashion Week, which is now the largest fashion event of its kind in the country that celebrates the beauty of fashion.
+            </p>
+
+          <div class="main">
+            <div class="againrow">
+                        <div class="large">HELP</div>
+                        <br>
+                        <hr style="width:20%">
+                        <br>
+                        <div class="small">Contact Us</div>
+                        <br>
+                        <hr style="width:20%">
+                        <br>
+                        <div class="small">Cancel Order</div>
+                        <br>
+                        <hr style="width:20%">
+                        <br>
+                        <div class="small">Track Order</div>
+                        <br>
+                        <hr style="width:20%">
+                        <br>
+                        <div class="small">Terms and Condition</div>
+           </div>
+           <div class="againrow1">
+                       <div  class="large">ACCOUNT</div>
+                       <br>
+                       <div class="small">Account</div>
+            </div>
+            <div class="againrow2">
+                  <div  class="large">NEED HELP</div>
+                  <br>
+                  <div class="small">support@lakmeindia.com</div>
+        </div>
+        </div>
+        </footer>
+        </div>
+        </div>
+</body>
+</html>
